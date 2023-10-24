@@ -56,6 +56,16 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+
+a {
+  color: #fff;
+}
+
+img {
+  border-radius: 10px;
+}
+/* header start */
+
 .header {
   background-color: black;
   max-width: 1920px;
@@ -63,12 +73,12 @@ body {
   color: white;
 }
 
-.header_container {
+.container {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 5px;
 }
-.flex {
+.header_container-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -117,3 +127,109 @@ body {
   cursor: pointer;
   color: white;
 }
+
+/* header end */
+
+/* main start */
+
+.article_section {
+  padding-top: 30px;
+  padding-bottom: 79px;
+}
+
+.visually-hidden {
+  position: absolute;
+  top: -999999em;
+  left: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.article_list-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 28px;
+}
+
+.article_item:first-child {
+  grid-column: span 4;
+  grid-row: span 4;
+}
+
+.news_article {
+  position: relative;
+}
+
+.article-img {
+  border-radius: 7px;
+}
+
+.article_item {
+  grid-column: span 4;
+  grid-row: span 2;
+}
+
+/* .news-article__img img {
+  border-radius: 10px;
+} */
+
+.article_category {
+  position: absolute;
+  left: 21px;
+  top: 30px;
+}
+
+.category {
+  display: inline-block;
+  padding: 2px 12px 1px;
+  background-color: #4a90e2;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.article_description {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.75) 82.82%
+  );
+  border-radius: 10px;
+}
+
+.news_article-part {
+  padding-left: 20px;
+  padding-bottom: 23px;
+  padding-right: 85px;
+  color: #fff;
+}
+
+.article_title {
+  font-family: PT Sans;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.article_item:first-child .article_desc-news {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.article_desc-news {
+  color: #fff;
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+/* main end */
