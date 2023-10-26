@@ -227,6 +227,7 @@ img {
   font-size: 26px;
   font-weight: 700;
   line-height: 36px;
+  width: 363px;
 }
 
 .article_desc-news {
@@ -286,6 +287,18 @@ img {
   font-weight: 700;
   line-height: 28px;
   margin-left: 30px;
+}
+
+.article_people-part {
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-bottom: 14px;
+}
+
+.article_subtitle-people {
+  margin-bottom: 43px;
+  margin-left: 30px;
+  width: 614px;
 }
 
 /* main end */
