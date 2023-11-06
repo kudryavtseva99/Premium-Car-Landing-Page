@@ -62,7 +62,7 @@ a {
 }
 
 img {
-  border-radius: 10px;
+  border-radius: 3px;
   height: auto;
   max-width: 100%;
 }
@@ -124,10 +124,12 @@ img {
 }
 
 .header_search-icon {
-  width: 16px;
-  height: 17px;
   cursor: pointer;
   color: white;
+}
+
+.header_search-icon img {
+  border-radius: 0;
 }
 
 /* header end */
@@ -252,11 +254,12 @@ img {
 .article_aside-grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 115px;
+  /* gap: 115px; */
 }
 
 .grid_list {
-  grid-column: 8 span;
+  grid-column: 9 span;
+  margin-right: 130px;
 }
 
 .article_people-aside {
@@ -423,4 +426,51 @@ img {
 .popular_posts-part {
   margin-bottom: 39px;
 }
+
+.instagram_title {
+  margin-top: 59px;
+  color: #171717;
+  font-family: PT Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.instagram_list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.instagram_item {
+  width: calc(50% - 5px);
+  margin: 0 10px 10px 0;
+}
+.instagram_item:nth-child(even) {
+  margin-right: 0;
+}
+.instagram_item img {
+  width: 100%;
+}
+
+.istagram_aside-button {
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  display: block;
+  padding-bottom: 15px;
+  padding-top: 17px;
+}
+
+.instagram_icon {
+  margin-right: 3px;
+  border-radius: 0;
+}
+
 /* main end */
