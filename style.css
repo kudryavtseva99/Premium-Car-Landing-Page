@@ -208,7 +208,7 @@ img {
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.75) 82.82%
   );
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 .news_article-part {
