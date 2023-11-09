@@ -251,6 +251,10 @@ img {
   padding-bottom: 80px;
 }
 
+.article_aside-img {
+  width: 100%;
+}
+
 .article_aside-grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
