@@ -251,23 +251,28 @@ img {
   padding-bottom: 80px;
 }
 
+.article-people_img {
+  width: 100%;
+}
+
 .article_aside-img {
   width: 100%;
 }
 
 .article_aside-grid {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(16, 1fr);
   /* gap: 115px; */
 }
 
 .grid_list {
-  grid-column: 9 span;
-  margin-right: 130px;
+  grid-column: 12 span;
+  margin-right: 80px;
 }
 
 .article_people-aside {
-  grid-column: 3 span;
+  margin-left: 40px;
+  grid-column: 4 span;
 }
 
 .article_people_item:not(:last-child) {
@@ -276,13 +281,13 @@ img {
 
 /* add required width */
 .article_people-description {
-  width: 92%;
+  width: 95%;
   position: absolute;
   top: 55%;
   left: 17px;
   z-index: 10;
   background: #fff;
-  max-width: 730px;
+  max-width: 790px;
   border-radius: 7px;
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
   color: #666;
