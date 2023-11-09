@@ -137,8 +137,8 @@ img {
 /* main start */
 
 .article_section {
-  padding-top: 30px;
-  padding-bottom: 79px;
+  margin-top: 30px;
+  margin-bottom: 75px;
 }
 
 .visually-hidden {
