@@ -477,3 +477,39 @@ img {
 .sidebarCommonBlock {
   margin-bottom: 60px;
 }
+
+/* Tags start */
+
+.tags_item a {
+  color: #171717;
+}
+
+.tags_title {
+  color: #171717;
+  font-family: PT Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-bottom: 26px;
+}
+
+.tags_list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.tags_item {
+  border-radius: 3px;
+  background: #ebebeb;
+  padding: 7px 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.tags_item-text {
+  color: #171717;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+}
