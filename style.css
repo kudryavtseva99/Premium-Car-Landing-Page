@@ -228,7 +228,6 @@ img {
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
-  margin-top: -25px;
 }
 
 .article_item:first-child .article_desc-news {
@@ -262,7 +261,6 @@ img {
 .article_aside-grid {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
-  /* gap: 115px; */
 }
 
 .grid_list {
@@ -279,7 +277,6 @@ img {
   margin-bottom: 95px;
 }
 
-/* add required width */
 .article_people-description {
   width: 95%;
   position: absolute;
@@ -398,6 +395,7 @@ img {
 
 .popular_posts-item {
   position: relative;
+  margin-bottom: 39px;
 }
 
 .popular_posts_title {
@@ -431,12 +429,7 @@ img {
   height: 22px;
 }
 
-.popular_posts-part {
-  margin-bottom: 50px;
-}
-
 .instagram_title {
-  /* margin-top: 59px; */
   color: #171717;
   font-family: PT Sans;
   font-size: 21px;
@@ -450,7 +443,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-top: -75px;
 }
 
 .instagram_item {
@@ -482,4 +474,6 @@ img {
   border-radius: 0;
 }
 
-/* main end */
+.sidebarCommonBlock {
+  margin-bottom: 60px;
+}
