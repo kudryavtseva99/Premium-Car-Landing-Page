@@ -331,7 +331,7 @@
                   <!-- pagination -->
                 </div>
 
-                <div
+                <aside
                   class="sidebar article_aside-blog article_people-aside article_aside"
                 >
                   <div class="sidebarCommonBlock article_aside">
@@ -513,7 +513,7 @@
                     </button>
                   </div>
 
-                  <div class="tags">
+                  <div class="tags sidebarCommonBlock">
                     <h2 class="tags_title">Tags</h2>
                     <ul class="tags_list">
                       <li class="tags_item tags_item-text">
@@ -569,7 +569,43 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+                  <form
+                    action="/"
+                    class="contact-form"
+                    name="simple form"
+                    autocomplete="on"
+                  >
+                    <h2 class="contact-form_title">Email newsletter</h2>
+                    <p class="contact-form_description">
+                      Sign up to receive email updates and to hear what's going
+                      on.
+                    </p>
+                    <label for="username">
+                      <input
+                        class="input_form"
+                        type="text"
+                        id="username"
+                        placeholder="Your name"
+                        required
+                      />
+                    </label>
+                    <label for="email_adress">
+                      <input
+                        class="input_form"
+                        type="text"
+                        id="email_adress"
+                        placeholder="Your email adress"
+                        required
+                      />
+                    </label>
+                    <button
+                      type="submit"
+                      class="button_contact-form text-button_contact-form"
+                    >
+                      Subscribe to newsletter
+                    </button>
+                  </form>
+                </aside>
               </div>
             </div>
           </div>
