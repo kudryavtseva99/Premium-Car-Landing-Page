@@ -62,7 +62,7 @@ a {
 }
 
 img {
-  border-radius: 3px;
+  border-radius: 5px;
   height: auto;
   max-width: 100%;
 }
@@ -576,6 +576,7 @@ img {
   border-radius: 3px;
   border: 1px solid #e5e5e5;
   padding: 11px 16px 13px;
+  margin-bottom: 80px;
 }
 
 .pagination_link {
@@ -588,4 +589,61 @@ img {
 
 .pagination_icon {
   vertical-align: middle;
+}
+
+/* section most popular start */
+
+.most-popular_title {
+  color: #171717;
+  font-family: PT Sans;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+
+.most-popular_list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.most-popular_item {
+  position: relative;
+}
+
+.most-popular_img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.most-popular_category {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.category_icon {
+  padding: 4px 18px;
+}
+
+.most-popular_subtitle {
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.most-popular_subtitle a {
+  color: #171717;
+}
+
+.author-and-time {
+  color: #666;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 70px;
 }
