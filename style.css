@@ -658,13 +658,11 @@ img {
 
 .footer_flex-container {
   display: flex;
-}
-
-.first_flex-container {
-  padding-top: 65px;
+  gap: 129px;
 }
 
 .footer_logo {
+  padding-top: 65px;
   margin-bottom: 30px;
 }
 
@@ -691,4 +689,38 @@ img {
   flex-wrap: nowrap;
   gap: 10px;
   margin-bottom: 174px;
+}
+
+.footer_title {
+  padding-top: 65px;
+  color: #fff;
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.footer-posts_decription {
+  color: #fff;
+  font-family: PT Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 13px;
+}
+
+.footer_author-and-time {
+  color: #cecece;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.footer-posts_item {
+  max-width: 293px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
 }
