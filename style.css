@@ -719,8 +719,18 @@ img {
 }
 
 .footer-posts_item {
-  max-width: 293px;
+  /* max-width: 293px; */
   display: flex;
   gap: 20px;
   margin-bottom: 25px;
+}
+
+.footer_input-form {
+  max-width: 270px;
+  background: #373737;
+  border: none;
+}
+
+.footer_button {
+  max-width: 270px;
 }
