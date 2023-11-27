@@ -741,3 +741,36 @@ img {
 .footer_button {
   max-width: 270px;
 }
+
+.second-footer {
+  background: #000;
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
+
+.copyright {
+  color: #fff;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer_navigation-list {
+  max-width: 353px;
+  display: flex;
+}
+
+.footer_nav-item {
+  margin-right: 20px;
+}
+
+.footer_nav-item:last-child {
+  margin-right: 0;
+}
+
+.second-footer_content {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
