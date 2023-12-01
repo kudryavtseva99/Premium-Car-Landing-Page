@@ -174,16 +174,16 @@ img {
   grid-row: span 2;
 }
 
-/* .news-article__img img {
-  border-radius: 10px;
-} */
-
 .article_category {
   position: absolute;
   left: 21px;
   top: 30px;
   width: 62px;
   height: 22px;
+}
+
+.article_category:focus {
+  outline: 1px #4a90e2 solid;
 }
 
 .category {
@@ -237,12 +237,18 @@ img {
   width: 363px;
 }
 
-.article_desc-news {
+.article_desc-news a {
   color: #fff;
+  transition: color 0.3s ease-in-out;
   font-family: PT Sans;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
+}
+
+.article_desc-news a:hover {
+  transition: color 0.3s ease-in-out;
+  color: #4a90e2;
 }
 
 .aticle {
@@ -296,10 +302,6 @@ img {
 }
 
 .article_people-category {
-  margin-bottom: 19px;
-}
-
-.article_people-category {
   margin-left: 30px;
   margin-top: 20px;
   width: 62px;
@@ -307,16 +309,27 @@ img {
   margin-bottom: 22px;
 }
 
+.article_people-category:focus {
+  outline: 1px #4a90e2 solid;
+}
+
 .title_color {
   color: #171717;
 }
 
-.article_people-title {
+.article_people-title a {
+  color: #171717;
+  transition: color 0.3s ease-in-out;
   font-family: PT Sans;
   font-size: 25px;
   font-weight: 700;
   line-height: 28px;
   margin-left: 30px;
+}
+
+.article_people-title a:hover {
+  transition: color 0.3s ease-in-out;
+  color: #4a90e2;
 }
 
 .article_people-part {
@@ -341,6 +354,11 @@ img {
 }
 .author_name a {
   color: #171717;
+  transition: color 0.3s ease-in-out;
+}
+.author_name a:hover {
+  color: #4a90e2;
+  transition: color 0.3s ease-in-out;
 }
 
 .article_author_career {
@@ -400,11 +418,17 @@ img {
 
 .popular_posts_title {
   color: #171717;
+  transition: color 0.3s ease-in-out;
   font-family: PT Sans;
   font-style: normal;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 21px;
+}
+
+.popular_posts_title:hover {
+  transition: color 0.3s ease-in-out;
+  color: #4a90e2;
 }
 
 .popular_posts-subtitle {
@@ -419,6 +443,11 @@ img {
 
 .popular_posts-subtitle a {
   color: #171717;
+  transition: color 0.3s ease-in-out;
+}
+.popular_posts-subtitle a:hover {
+  transition: color 0.3s ease-in-out;
+  color: #4a90e2;
 }
 
 .popular_posts-category {
@@ -429,14 +458,24 @@ img {
   height: 22px;
 }
 
+.popular_posts-category:focus {
+  outline: 1px #4a90e2 solid;
+}
+
 .instagram_title {
   color: #171717;
+  transition: color 0.3s ease-in-out;
   font-family: PT Sans;
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
   margin-bottom: 25px;
+}
+
+.instagram_title:hover {
+  transition: color 0.3s ease-in-out;
+  color: #4a90e2;
 }
 
 .instagram_list {
@@ -449,16 +488,27 @@ img {
   width: calc(50% - 5px);
   margin: 0 10px 10px 0;
 }
+
+.article_instagram-item img {
+  transition: 0.5s ease-in-out;
+}
+
+.article_instagram-item img:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.11);
+}
+
 .instagram_item:nth-child(even) {
   margin-right: 0;
 }
+
 .instagram_item img {
   width: 100%;
 }
 
-.istagram_aside-button {
+.instagram_button {
   color: #fff;
-  background-color: black;
+  background-color: #232323;
   text-align: center;
   font-family: PT Sans;
   font-size: 14px;
@@ -467,9 +517,40 @@ img {
   display: block;
   padding-bottom: 15px;
   padding-top: 17px;
+  transition: background-color 0.3s ease-in-out;
+}
+.instagram_button:hover {
+  background-color: #000000;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.instagram_icon {
+.instagram_button a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 7px;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+.instagram_button:hover a {
+  color: #4a90e2;
+  transition: color 0.3s ease-in-out;
+}
+
+.instagram_button a svg path {
+  gap: 10px;
+  transition: fill 0.3s ease-in-out;
+}
+.instagram_button:hover a svg path {
+  fill: #4a90e2;
+  transition: fill 0.3s ease-in-out;
+}
+
+.instagram_button:focus {
+  border: 2px solid #4a90e2;
+}
+
+.instagram_button a svg {
   margin-right: 3px;
   border-radius: 0;
 }
@@ -486,11 +567,17 @@ img {
 
 .tags_title {
   color: #171717;
+  transition: color 0.3s ease-in-out;
   font-family: PT Sans;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
   margin-bottom: 26px;
+}
+
+.tags_title:hover {
+  color: #4a90e2;
+  transition: color 0.3s ease-in-out;
 }
 
 .tags_list {
@@ -500,26 +587,47 @@ img {
 }
 
 .tags_item {
-  border-radius: 3px;
-  background: #ebebeb;
-  padding: 7px 5px;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+.tags_item a {
+  background: #ebebeb;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 7px 5px;
+  border-radius: 3px;
+}
+
+.tags_item a:focus {
+  outline: 2px solid #4a90e2;
 }
 
 .tags_item-text {
   color: #171717;
+  transition: color 0.3s ease-in-out;
   font-family: PT Sans;
   font-size: 14px;
   font-weight: 400;
 }
 
+.tags_item-text a:hover {
+  color: #4a90e2;
+  transition: color 0.3s ease-in-out;
+}
+
 .contact-form_title {
   color: #171717;
+  transition: color 0.3s ease-in-out;
   font-family: PT Sans;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 11px;
+}
+
+.contact-form_title:hover {
+  color: #4a90e2;
+  transition: color 0.3s ease-in-out;
 }
 
 .contact-form_description {
@@ -543,6 +651,10 @@ img {
   margin-bottom: 10px;
 }
 
+.input_form:focus {
+  outline: 2px solid #373737;
+}
+
 .input_form::placeholder {
   color: #aeb3bb;
   font-family: PT Sans;
@@ -558,11 +670,21 @@ img {
   padding-bottom: 15px;
 }
 
+.button_contact-form:focus {
+  outline: 2px solid #4a90e2;
+}
+
 .text-button_contact-form {
   color: #fff;
+  transition: color 0.3s ease-in-out;
   font-family: PT Sans;
   font-size: 14px;
   font-weight: 700;
+}
+
+.text-button_contact-form:hover {
+  color: #4a90e2;
+  transition: color 0.3s ease-in-out;
 }
 
 .pagination_list {
@@ -580,7 +702,7 @@ img {
 }
 
 .pagination_link {
-  color: #171717;
+  color: #000;
   font-family: PT Sans;
   font-size: 16px;
   font-weight: 400;
@@ -774,3 +896,5 @@ img {
   justify-content: space-between;
   margin: 0 auto;
 }
+
+/* footer end */
