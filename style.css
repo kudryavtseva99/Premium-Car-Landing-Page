@@ -871,11 +871,17 @@ img {
 
 .footer-posts_decription {
   color: #fff;
+  transition: all 0.3s ease-in-out;
   font-family: PT Sans;
   font-size: 15px;
   font-weight: 700;
   line-height: 26px;
   margin-bottom: 13px;
+}
+
+.footer-posts_decription:hover {
+  color: #4a90e2;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer_author-and-time {
@@ -903,8 +909,18 @@ img {
   border: none;
 }
 
+.footer_input-form:focus {
+  outline: 2px solid #fff;
+}
+
 .footer_button {
   max-width: 270px;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer_button:hover {
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
 }
 
 .second-footer {
@@ -938,6 +954,23 @@ img {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+}
+
+.footer_nav-item a {
+  transition: all 0.3s ease-in-out;
+}
+
+.footer_nav-item:hover a {
+  color: #4a90e2;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer_nav-link {
+  outline: 2px transparent solid;
+}
+
+.footer_nav-link:focus {
+  outline: 2px #4a90e2 solid;
 }
 
 /* footer end */
