@@ -847,6 +847,15 @@ img {
   margin-bottom: 174px;
 }
 
+.social-networks_item a svg path {
+  transition: all 0.3s ease-in-out;
+}
+
+.social-networks_item:hover a svg path {
+  fill: #4a90e2;
+  transition: all 0.3s ease-in-out;
+}
+
 .second_footer-flex-container {
   max-width: 293px;
 }
