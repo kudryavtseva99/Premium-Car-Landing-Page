@@ -739,10 +739,16 @@ img {
 
 .most-popular_title {
   color: #171717;
+  transition: all 0.3s ease-in-out;
   font-family: PT Sans;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 27px;
+}
+
+.most-popular_title:hover {
+  color: #4a90e2;
+  transition: all 0.3s ease-in-out;
 }
 
 .most-popular_list {
@@ -781,6 +787,12 @@ img {
 
 .most-popular_subtitle a {
   color: #171717;
+  transition: all 0.3s ease-in-out;
+}
+
+.most-popular_subtitle a:hover {
+  color: #4a90e2;
+  transition: all 0.3s ease-in-out;
 }
 
 .author-and-time {
