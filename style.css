@@ -974,3 +974,34 @@ img {
 }
 
 /* footer end */
+
+/* header burger start */
+
+.header_burger {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-color: inherit;
+  z-index: 1000;
+}
+
+.burger_line {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  left: 0;
+  border-radius: 5px;
+}
+
+.burger_line-first {
+  transform: translateY(-10px);
+}
+
+.burger_line-third {
+  transform: translateY(10px);
+}
+
+/* header burger end */
