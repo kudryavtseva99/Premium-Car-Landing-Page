@@ -224,13 +224,13 @@ img {
 
 .article_title {
   font-family: PT Sans;
-  font-style: italic;
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 6px;
 }
 
-.article_item:first-child .article_desc-news {
+.article_item:first-child .article_desc-news a {
   font-size: 26px;
   font-weight: 700;
   line-height: 36px;
@@ -983,7 +983,7 @@ img {
   width: 30px;
   height: 40px;
   border: none;
-  /* z-index: 1000; */
+  z-index: 1000;
 }
 
 .burger_line {
@@ -1056,15 +1056,14 @@ img {
     backdrop-filter: blur(50px);
     transform: translateX(0);
   }
-
-  /* .header_unvisible {
+  .header_unvisible {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 11;
-  } */
+  }
 
   .header_list {
     flex-direction: column;
