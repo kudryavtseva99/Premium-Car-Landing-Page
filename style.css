@@ -1115,6 +1115,11 @@ img {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-right: 0;
+  }
+
+  .article_aside-grid {
+    display: block;
   }
 
   .footer_flex-container {
@@ -1140,16 +1145,28 @@ img {
   }
 
   .article_aside {
-    grid-column: 12 span;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 85%;
+    margin-left: 0;
+    margin: 60px auto;
   }
 
   .article_people-description {
+    width: 100%;
     left: 0;
     padding: 20px 86px 18px 20px;
+    top: 51%;
   }
 
   .article_people-title a {
     font-size: 18px;
+    margin-left: 0;
+  }
+
+  .article_people-part {
+    margin-left: 0;
   }
 
   .article_subtitle-people {
@@ -1163,6 +1180,13 @@ img {
 
   .article_aside-grid {
     margin-bottom: 80px;
+  }
+  .article_aside-part {
+    text-align: center;
+  }
+
+  .pagination {
+    margin-bottom: 0;
   }
 
   .most-popular_title {
