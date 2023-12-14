@@ -1179,10 +1179,41 @@ img {
   }
 
   .article_aside-grid {
-    margin-bottom: 80px;
+    margin-bottom: 0;
   }
   .article_aside-part {
     text-align: center;
+  }
+
+  .popular_posts_title {
+    text-align: center;
+    font-size: 21px;
+  }
+  .popular_posts-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .sidebarCommonBlock {
+    margin-bottom: 45px;
+  }
+
+  .instagram_title {
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .tags_title {
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .contact-form_title {
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .input_form {
+    height: 20%;
   }
 
   .pagination {
@@ -1191,6 +1222,7 @@ img {
 
   .most-popular_title {
     text-align: center;
+    font-size: 25px;
   }
 
   .most-popular_list {
@@ -1228,6 +1260,10 @@ img {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
+  }
+
+  .third_footer-flex-container {
+    margin-bottom: 20px;
   }
 }
 /* media end */
