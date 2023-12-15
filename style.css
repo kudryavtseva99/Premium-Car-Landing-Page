@@ -564,3 +564,28 @@ img {
   font-size: 14px;
   font-weight: 700;
 }
+
+.pagination_list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination_item {
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  padding: 11px 16px 13px;
+}
+
+.pagination_link {
+  color: #171717;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.pagination_icon {
+  vertical-align: middle;
+}
